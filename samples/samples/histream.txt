@@ -1,0 +1,17 @@
+magic: histream
+binSize: 240
+// node: n nodeTag numChildren numAttributes hasData
+// attr: a attrTag attrType data0 data1 ... dataN
+n 255 2 0 0
+  n 1 0 4 5
+   d 0 6c6c6568 6f 
+   a 0 e 
+   a 0 e 
+   a 0 e 
+   a 0 e 
+  n 1 0 4 10
+   d 1 1 2 3.1479 4 
+   a 1 12 node1
+   a 2 1f attr3 3
+   a 4 1f attr4 4
+   a 3 1f attr5 5
