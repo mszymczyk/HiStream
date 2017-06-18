@@ -1,3 +1,5 @@
+# HiStream - binary, hierarchical file format
+
 Game data is most efficiently stored as a binary blob. We get fast reads and compact size. The downside is that debugging contents of such  file is difficult. We have to write separate piece of code for each file type to extract it's contents for inspection.
 
 On the other side of spectrum, there are text files, like XML or JSON, that are easy to read but offer less read performance and have usually bigger (and non deterministic) sizes.
